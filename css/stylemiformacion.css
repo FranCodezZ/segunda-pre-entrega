@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
+
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;}
+
+.titulo {
+    color: black;
+    background-color:orange;
+    text-align: center;
+    background-size: 20px;
+    text-decoration: underline;
+    padding-block: 10px;
+    }
+
+.subtitulo {
+    color: black;
+    background-color: orange;
+    background-size: 20px;
+    text-decoration: underline;padding-bottom: 10px;
+    }
+
+table {
+    background-color: white;
+    margin-left: 70px;
+}
+
+
+body { background-image: url(./../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;}
+
+.box {
+    background-color: orange;
+    background-size: 60px;
+    text-align: center;
+    height: 220px;
+    width: 400px;
+    padding-top: 30px;
+    margin-left: 110px;
+}
+
+.institucion {
+    width: 400px;
+    height: 500px;
+    background-color: orange; 
+    text-align: center;
+    margin-left: 110px;
+}
+
+.agregar{
+    background-color: orange;
+    color: black;
+    height: 200px;
+    width: 400px;
+    margin-left: 110px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 480px)
+    {
+    .box {margin-left: 40px;}
+    .institucion {margin-left: 40px;}
+    .agregar {margin-left: 40px;}
+    
+
+
+    .titulo {
+        width: 600px;
+        text-align: left;}
+       
+    .subtitulo{
+        width: 600px;
+    }
+    }

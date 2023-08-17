@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./../css/stylemiformacion.css">
+    <link rel="shortcut icon" href="./../img/logo.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi formacion</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="titulo">
+        
+          <h1>
+            <b>MI FORMACION</b>
+       
+          </h1>
+        
+        </div>
+        <div class="subtitulo">
+            <a href="./../index.html">
+                Volver al inicio.
+            </a>
+            </div> 
+    </header> 
+    <main>
+    <div class="box" >
+        <h4> Instituciones a las que asisitio el usuario</h4>
+      <table border="1">
+        <tr>
+          <th>institucion</th>
+          <th>Descripcion</th>
+        </tr>
+        <tr>
+          <td>coderhouse</td>
+          <td>virtual-desarrollo web</td>
+        </tr>
+        <tr>
+          <td>utn</td>
+          <td>presencial-ing</td>
+        </tr>
+      </table>
+      <br>
+      <select name="" id="">
+        <option disabled selected value="text">Seleciones una institucion</option>
+        <option value="">utn</option>
+        <option value="">coderhouse</option>
+        <option value="">la nasa</option>
+    </select>
+    <br>
+    <button type="button">Selecionar</button>
+
+    </div>
+
+    <div class="institucion">
+      <h2>NOMBRE DE LA INSTITUCION SELECIONADA</h2>
+      <br>
+      <img src="./../img/Institucion.jpg" alt="institucion" title="institucion" width="250px">
+      <br>
+      <button type="button">Borrar</button>
+      <button type="button">Modificar</button>
+      <p>
+        <b>Descripcion...</b>
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit quod
+        assumenda mollitia ipsa maxime, repudiandae consectetur perspiciatis
+        expedita nam asperiores adipisci, explicabo sapiente, commodi inventore
+        incidunt quos ratione? Illo, voluptate.
+      </p>
+    </div>
+    <div class="agregar">
+      <br />
+      <h4>AÑADIR INSTITUCION</h4>
+      <label for="Nombre"> Ingrese el nombre de la institucion </label>
+      <input type="text" id="nombre" required />
+      <br />
+      <br />
+      <h4>AÑADIR DESCRIPCION</h4>
+      <label for="descripcion"> Ingrese descripcion de la institucion </label>
+      <input type="text" id="descripcion">
+      <br />
+    </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800;900;1000&display=swap');
+
+
+*   {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;}
+
+.titulo {
+    color: black;
+    background-color:orange;
+    text-align: center;
+    background-size: 20px;
+    text-decoration: underline;
+    padding-block: 10px;
+    }
+
+.subtitulo {
+    color: black;
+    background-color: orange;
+    background-size: 20px;
+    text-decoration: underline;padding-bottom: 10px;
+    }
+
+
+body {
+    background-image: url(./../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 900px;
+}
+.box {
+    background-color: orange;
+    background-size: 60px;
+    text-align: center;
+    height: 250px;
+    width: 400px;
+    padding-top: 20px;
+    margin-left: 110px;
+    
+}
+.box h4{
+    padding-bottom: 30px;
+}
+.proyecto {
+    padding-top: 10px;
+    width: 400px;
+    height: 350px;
+    background-color: orange; 
+    text-align: center;
+    margin-left: 110px;
+}
+
+.nuevop {
+    background-color: orange;
+    color: black;
+    height: 250px;
+    width: 400px;
+    margin-left: 110px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    padding-left: 100px;
+
+}
+
+.caja {
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 480px)
+    {
+    .box {margin-left: 40px;}
+    .proyecto {margin-left: 40px;}
+    .nuevop {margin-left: 40px;}
+    
+
+
+    .titulo {
+        width: 600px;
+        text-align: left;}
+       
+    .subtitulo{
+        width: 600px;
+    }
+    }
+    
